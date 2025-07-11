@@ -1,4 +1,4 @@
-// Utilidad para cargar un componente HTML
+// Función para cargar componentes
 async function loadComponent(id, filePath, callback = null) {
   try {
     const res = await fetch(filePath);
@@ -7,7 +7,7 @@ async function loadComponent(id, filePath, callback = null) {
     document.getElementById(id).innerHTML = html;
 
     if (typeof callback === "function") {
-      callback(); // Ejecutar función opcional después de cargar
+      callback(); // Ejecutar función después de cargar
     }
   } catch (err) {
     console.error(`Error cargando ${filePath}:`, err);
