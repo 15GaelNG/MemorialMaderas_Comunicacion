@@ -1,38 +1,29 @@
-/* ========== MEMORIAL SECTION ========== */
+/* ========= IMPORTACIÓN DE COMPONENTES ========= */
+@import url("hero.css");
+@import url("about.css");
+@import url("packages.css");
+@import url("quote.css");
+@import url("pets.css");
+@import url("contact.css");
+@import url("footer.css");
+@import url("navbar.css");
 
-.hero {
-  height: 100vh; /* Ocupa toda la pantalla */
-  background: url('../assets/img/slide1-background.jpg') center/cover no-repeat;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+/* ========= RESET GENERAL ========= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Capa oscura encima del fondo para resaltar el texto */
-.hero .overlay {
-  background-color: rgba(0, 0, 0, 0.6); /* oscurece la imagen */
-  padding: 40px;
-  text-align: center;
-  color: #fff;
-  border-radius: 10px;
+html {
+  scroll-behavior: smooth;
 }
 
-/* Estilo al nombre de la marca */
-.marca {
-  display: block;
-  font-size: 2.2rem;
-  font-weight: bold;
-  color: #f3c300; /* Dorado */
-}
-
-.hero h1 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 1.1rem;
-  margin-top: 15px;
+body {
+  font-family: sans-serif;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
 }
 

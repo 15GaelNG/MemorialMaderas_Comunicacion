@@ -1,0 +1,35 @@
+/* ========== HERO SECTION ========== */
+
+.hero {
+  height: 100vh;
+  background: url('../assets/img/slide1-background.jpg') center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.marca {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #f3c300;
+}
+
+.hero h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-top: 15px;
+}
