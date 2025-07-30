@@ -62,6 +62,7 @@ function initComponents() {
     }
   );
 
+
   loadComponent(
     "section5",
     "components/section5.html",
